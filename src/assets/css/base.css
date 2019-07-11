@@ -1,0 +1,53 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  color: #000;
+  font-size: 16px;
+  background-color: #efefef;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: #000;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+img {
+  display: block;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+/*清除浮动*/
+.clearfix:before,
+.clearfix:after {
+  content: '';
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/*单行溢出*/
+.one-txt-cut {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
